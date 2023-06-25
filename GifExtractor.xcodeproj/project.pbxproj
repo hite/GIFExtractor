@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		484DED632A47E2A100E56C96 /* GifExtractorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484DED622A47E2A100E56C96 /* GifExtractorApp.swift */; };
+		484DED652A47E2A100E56C96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484DED642A47E2A100E56C96 /* ContentView.swift */; };
+		484DED672A47E2A200E56C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484DED662A47E2A200E56C96 /* Assets.xcassets */; };
+		484DED6B2A47E2A200E56C96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484DED6A2A47E2A200E56C96 /* Preview Assets.xcassets */; };
+		484DEDA72A481A8500E56C96 /* GIFLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484DEDA62A481A8500E56C96 /* GIFLoader.swift */; };
+		484DEDAB2A492C4100E56C96 /* enjoy_fighting.gif in Resources */ = {isa = PBXBuildFile; fileRef = 484DEDAA2A492C4100E56C96 /* enjoy_fighting.gif */; };
+		484DEDAD2A492F1100E56C96 /* GIFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484DEDAC2A492F1100E56C96 /* GIFImageView.swift */; };
+		48C496B62A4BC68800301605 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C496B52A4BC68800301605 /* WidgetKit.framework */; };
+		48C496B82A4BC68800301605 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C496B72A4BC68800301605 /* SwiftUI.framework */; };
+		48C496BB2A4BC68800301605 /* SlowMotionBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C496BA2A4BC68800301605 /* SlowMotionBundle.swift */; };
+		48C496BD2A4BC68800301605 /* SlowMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C496BC2A4BC68800301605 /* SlowMotion.swift */; };
+		48C496BF2A4BC68A00301605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C496BE2A4BC68A00301605 /* Assets.xcassets */; };
+		48C496C42A4BC68A00301605 /* SlowMotionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 48C496B32A4BC68800301605 /* SlowMotionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		48C496CB2A4BD09600301605 /* GifProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484DED9D2A4811A900E56C96 /* GifProvider.framework */; };
+		48C496CC2A4BD09600301605 /* GifProvider.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 484DED9D2A4811A900E56C96 /* GifProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48C496D62A4BEA3700301605 /* GifProviderTesterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C496D52A4BEA3700301605 /* GifProviderTesterApp.swift */; };
+		48C496D82A4BEA3700301605 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C496D72A4BEA3700301605 /* ContentView.swift */; };
+		48C496DA2A4BEA3800301605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C496D92A4BEA3800301605 /* Assets.xcassets */; };
+		48C496DD2A4BEA3800301605 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C496DC2A4BEA3800301605 /* Preview Assets.xcassets */; };
+		48C496E62A4BEAA800301605 /* GifProvider.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 484DED9D2A4811A900E56C96 /* GifProvider.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		484DED9C2A4811A900E56C96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 484DED972A4811A900E56C96 /* GifProvider.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 484DED7B2A480EEE00E56C96;
+			remoteInfo = GifProvider;
+		};
+		484DED9E2A4811A900E56C96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 484DED972A4811A900E56C96 /* GifProvider.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 484DED852A480EEF00E56C96;
+			remoteInfo = GifProviderTests;
+		};
+		48C496C22A4BC68A00301605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 484DED572A47E2A100E56C96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48C496B22A4BC68800301605;
+			remoteInfo = SlowMotionExtension;
+		};
+		48C496E32A4BEA7300301605 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 484DED972A4811A900E56C96 /* GifProvider.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 484DED7A2A480EEE00E56C96;
+			remoteInfo = GifProvider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		48C496C52A4BC68A00301605 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				48C496C42A4BC68A00301605 /* SlowMotionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C496CD2A4BD09600301605 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				48C496CC2A4BD09600301605 /* GifProvider.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C496E52A4BEA9800301605 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				48C496E62A4BEAA800301605 /* GifProvider.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		484DED5F2A47E2A100E56C96 /* GifExtractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifExtractor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		484DED622A47E2A100E56C96 /* GifExtractorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifExtractorApp.swift; sourceTree = "<group>"; };
+		484DED642A47E2A100E56C96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		484DED662A47E2A200E56C96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		484DED682A47E2A200E56C96 /* GifExtractor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GifExtractor.entitlements; sourceTree = "<group>"; };
+		484DED6A2A47E2A200E56C96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		484DED972A4811A900E56C96 /* GifProvider.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GifProvider.xcodeproj; path = ../../GifProvider/GifProvider.xcodeproj; sourceTree = "<group>"; };
+		484DEDA62A481A8500E56C96 /* GIFLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFLoader.swift; sourceTree = "<group>"; };
+		484DEDAA2A492C4100E56C96 /* enjoy_fighting.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = enjoy_fighting.gif; sourceTree = "<group>"; };
+		484DEDAC2A492F1100E56C96 /* GIFImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFImageView.swift; sourceTree = "<group>"; };
+		48C496B32A4BC68800301605 /* SlowMotionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SlowMotionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C496B52A4BC68800301605 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = /System/Library/Frameworks/WidgetKit.framework; sourceTree = "<absolute>"; };
+		48C496B72A4BC68800301605 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = /System/Library/Frameworks/SwiftUI.framework; sourceTree = "<absolute>"; };
+		48C496BA2A4BC68800301605 /* SlowMotionBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlowMotionBundle.swift; sourceTree = "<group>"; };
+		48C496BC2A4BC68800301605 /* SlowMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlowMotion.swift; sourceTree = "<group>"; };
+		48C496BE2A4BC68A00301605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48C496C02A4BC68A00301605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C496C12A4BC68A00301605 /* SlowMotion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SlowMotion.entitlements; sourceTree = "<group>"; };
+		48C496D32A4BEA3600301605 /* GifProviderTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GifProviderTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C496D52A4BEA3700301605 /* GifProviderTesterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifProviderTesterApp.swift; sourceTree = "<group>"; };
+		48C496D72A4BEA3700301605 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		48C496D92A4BEA3800301605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48C496DC2A4BEA3800301605 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		484DED5C2A47E2A100E56C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C496CB2A4BD09600301605 /* GifProvider.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C496B02A4BC68800301605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C496B82A4BC68800301605 /* SwiftUI.framework in Frameworks */,
+				48C496B62A4BC68800301605 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C496D02A4BEA3600301605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		484DED562A47E2A100E56C96 = {
+			isa = PBXGroup;
+			children = (
+				484DED612A47E2A100E56C96 /* GifExtractor */,
+				48C496B92A4BC68800301605 /* SlowMotion */,
+				48C496D42A4BEA3700301605 /* GifProviderTester */,
+				48C496B42A4BC68800301605 /* Frameworks */,
+				484DED602A47E2A100E56C96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		484DED602A47E2A100E56C96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				484DED5F2A47E2A100E56C96 /* GifExtractor.app */,
+				48C496B32A4BC68800301605 /* SlowMotionExtension.appex */,
+				48C496D32A4BEA3600301605 /* GifProviderTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		484DED612A47E2A100E56C96 /* GifExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				484DED972A4811A900E56C96 /* GifProvider.xcodeproj */,
+				484DED622A47E2A100E56C96 /* GifExtractorApp.swift */,
+				484DED642A47E2A100E56C96 /* ContentView.swift */,
+				484DEDAC2A492F1100E56C96 /* GIFImageView.swift */,
+				484DEDA62A481A8500E56C96 /* GIFLoader.swift */,
+				484DED662A47E2A200E56C96 /* Assets.xcassets */,
+				484DEDAA2A492C4100E56C96 /* enjoy_fighting.gif */,
+				484DED682A47E2A200E56C96 /* GifExtractor.entitlements */,
+				484DED692A47E2A200E56C96 /* Preview Content */,
+			);
+			path = GifExtractor;
+			sourceTree = "<group>";
+		};
+		484DED692A47E2A200E56C96 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				484DED6A2A47E2A200E56C96 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		484DED982A4811A900E56C96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				484DED9D2A4811A900E56C96 /* GifProvider.framework */,
+				484DED9F2A4811A900E56C96 /* GifProviderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48C496B42A4BC68800301605 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48C496B52A4BC68800301605 /* WidgetKit.framework */,
+				48C496B72A4BC68800301605 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48C496B92A4BC68800301605 /* SlowMotion */ = {
+			isa = PBXGroup;
+			children = (
+				48C496BA2A4BC68800301605 /* SlowMotionBundle.swift */,
+				48C496BC2A4BC68800301605 /* SlowMotion.swift */,
+				48C496BE2A4BC68A00301605 /* Assets.xcassets */,
+				48C496C02A4BC68A00301605 /* Info.plist */,
+				48C496C12A4BC68A00301605 /* SlowMotion.entitlements */,
+			);
+			path = SlowMotion;
+			sourceTree = "<group>";
+		};
+		48C496D42A4BEA3700301605 /* GifProviderTester */ = {
+			isa = PBXGroup;
+			children = (
+				48C496D52A4BEA3700301605 /* GifProviderTesterApp.swift */,
+				48C496D72A4BEA3700301605 /* ContentView.swift */,
+				48C496D92A4BEA3800301605 /* Assets.xcassets */,
+				48C496DB2A4BEA3800301605 /* Preview Content */,
+			);
+			path = GifProviderTester;
+			sourceTree = "<group>";
+		};
+		48C496DB2A4BEA3800301605 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				48C496DC2A4BEA3800301605 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		484DED5E2A47E2A100E56C96 /* GifExtractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484DED6E2A47E2A200E56C96 /* Build configuration list for PBXNativeTarget "GifExtractor" */;
+			buildPhases = (
+				484DED5B2A47E2A100E56C96 /* Sources */,
+				484DED5C2A47E2A100E56C96 /* Frameworks */,
+				484DED5D2A47E2A100E56C96 /* Resources */,
+				48C496C52A4BC68A00301605 /* Embed Foundation Extensions */,
+				48C496CD2A4BD09600301605 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48C496C32A4BC68A00301605 /* PBXTargetDependency */,
+			);
+			name = GifExtractor;
+			productName = GifExtractor;
+			productReference = 484DED5F2A47E2A100E56C96 /* GifExtractor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48C496B22A4BC68800301605 /* SlowMotionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C496CA2A4BC68A00301605 /* Build configuration list for PBXNativeTarget "SlowMotionExtension" */;
+			buildPhases = (
+				48C496AF2A4BC68800301605 /* Sources */,
+				48C496B02A4BC68800301605 /* Frameworks */,
+				48C496B12A4BC68800301605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlowMotionExtension;
+			productName = SlowMotionExtension;
+			productReference = 48C496B32A4BC68800301605 /* SlowMotionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		48C496D22A4BEA3600301605 /* GifProviderTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C496E22A4BEA3800301605 /* Build configuration list for PBXNativeTarget "GifProviderTester" */;
+			buildPhases = (
+				48C496CF2A4BEA3600301605 /* Sources */,
+				48C496D02A4BEA3600301605 /* Frameworks */,
+				48C496D12A4BEA3600301605 /* Resources */,
+				48C496E52A4BEA9800301605 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48C496E42A4BEA7300301605 /* PBXTargetDependency */,
+			);
+			name = GifProviderTester;
+			productName = GifProviderTester;
+			productReference = 48C496D32A4BEA3600301605 /* GifProviderTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		484DED572A47E2A100E56C96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					484DED5E2A47E2A100E56C96 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					48C496B22A4BC68800301605 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					48C496D22A4BEA3600301605 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 484DED5A2A47E2A100E56C96 /* Build configuration list for PBXProject "GifExtractor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 484DED562A47E2A100E56C96;
+			productRefGroup = 484DED602A47E2A100E56C96 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 484DED982A4811A900E56C96 /* Products */;
+					ProjectRef = 484DED972A4811A900E56C96 /* GifProvider.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				484DED5E2A47E2A100E56C96 /* GifExtractor */,
+				48C496B22A4BC68800301605 /* SlowMotionExtension */,
+				48C496D22A4BEA3600301605 /* GifProviderTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		484DED9D2A4811A900E56C96 /* GifProvider.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GifProvider.framework;
+			remoteRef = 484DED9C2A4811A900E56C96 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		484DED9F2A4811A900E56C96 /* GifProviderTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GifProviderTests.xctest;
+			remoteRef = 484DED9E2A4811A900E56C96 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		484DED5D2A47E2A100E56C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484DEDAB2A492C4100E56C96 /* enjoy_fighting.gif in Resources */,
+				484DED6B2A47E2A200E56C96 /* Preview Assets.xcassets in Resources */,
+				484DED672A47E2A200E56C96 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C496B12A4BC68800301605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C496BF2A4BC68A00301605 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C496D12A4BEA3600301605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C496DD2A4BEA3800301605 /* Preview Assets.xcassets in Resources */,
+				48C496DA2A4BEA3800301605 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		484DED5B2A47E2A100E56C96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484DED652A47E2A100E56C96 /* ContentView.swift in Sources */,
+				484DEDAD2A492F1100E56C96 /* GIFImageView.swift in Sources */,
+				484DEDA72A481A8500E56C96 /* GIFLoader.swift in Sources */,
+				484DED632A47E2A100E56C96 /* GifExtractorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C496AF2A4BC68800301605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C496BD2A4BC68800301605 /* SlowMotion.swift in Sources */,
+				48C496BB2A4BC68800301605 /* SlowMotionBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C496CF2A4BEA3600301605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C496D82A4BEA3700301605 /* ContentView.swift in Sources */,
+				48C496D62A4BEA3700301605 /* GifProviderTesterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48C496C32A4BC68A00301605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48C496B22A4BC68800301605 /* SlowMotionExtension */;
+			targetProxy = 48C496C22A4BC68A00301605 /* PBXContainerItemProxy */;
+		};
+		48C496E42A4BEA7300301605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GifProvider;
+			targetProxy = 48C496E32A4BEA7300301605 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		484DED6C2A47E2A200E56C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		484DED6D2A47E2A200E56C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		484DED6F2A47E2A200E56C96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GifExtractor/GifExtractor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GifExtractor/Preview Content\"";
+				DEVELOPMENT_TEAM = 5F3P75AV37;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.hite.demo.GifExtractor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		484DED702A47E2A200E56C96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GifExtractor/GifExtractor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GifExtractor/Preview Content\"";
+				DEVELOPMENT_TEAM = 5F3P75AV37;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.hite.demo.GifExtractor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48C496C62A4BC68A00301605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SlowMotion/SlowMotion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F3P75AV37;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SlowMotion/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SlowMotion;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.hite.demo.GifExtractor.SlowMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48C496C72A4BC68A00301605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SlowMotion/SlowMotion.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5F3P75AV37;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SlowMotion/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SlowMotion;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.hite.demo.GifExtractor.SlowMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48C496DE2A4BEA3800301605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GifProviderTester/Preview Content\"";
+				DEVELOPMENT_TEAM = 5F3P75AV37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.hite.demo.GifProviderTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48C496DF2A4BEA3800301605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GifProviderTester/Preview Content\"";
+				DEVELOPMENT_TEAM = 5F3P75AV37;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.hite.demo.GifProviderTester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		484DED5A2A47E2A100E56C96 /* Build configuration list for PBXProject "GifExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484DED6C2A47E2A200E56C96 /* Debug */,
+				484DED6D2A47E2A200E56C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484DED6E2A47E2A200E56C96 /* Build configuration list for PBXNativeTarget "GifExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484DED6F2A47E2A200E56C96 /* Debug */,
+				484DED702A47E2A200E56C96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C496CA2A4BC68A00301605 /* Build configuration list for PBXNativeTarget "SlowMotionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C496C62A4BC68A00301605 /* Debug */,
+				48C496C72A4BC68A00301605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C496E22A4BEA3800301605 /* Build configuration list for PBXNativeTarget "GifProviderTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C496DE2A4BEA3800301605 /* Debug */,
+				48C496DF2A4BEA3800301605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 484DED572A47E2A100E56C96 /* Project object */;
+}
